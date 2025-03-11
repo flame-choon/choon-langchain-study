@@ -3415,20 +3415,19 @@ xai = ["langchain-xai"]
 
 [[package]]
 name = "langchain-anthropic"
-version = "0.2.4"
+version = "0.3.9"
 description = "An integration package connecting AnthropicMessages and LangChain"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 files = [
-    {file = "langchain_anthropic-0.2.4-py3-none-any.whl", hash = "sha256:bcb6c2d0df4a67aff52816621079d6e743b260911caccf313a72b33b7edece6f"},
-    {file = "langchain_anthropic-0.2.4.tar.gz", hash = "sha256:0382d4c7b5236839b703f7b72b3e06de4bb5be99104b193f719adbe34c49562b"},
+    {file = "langchain_anthropic-0.3.9-py3-none-any.whl", hash = "sha256:adbbfaf3ce9798d46fb43d6fc01105630238f375dc6043d35d0aafab61fdbb71"},
+    {file = "langchain_anthropic-0.3.9.tar.gz", hash = "sha256:e8012d7986ad1d8412df6914c56f3c0d2797f231766a03bb1ad22cc7023e6e1d"},
 ]
 
 [package.dependencies]
-anthropic = ">=0.30.0,<1"
-defusedxml = ">=0.7.1,<0.8.0"
-langchain-core = ">=0.3.15,<0.4.0"
+anthropic = ">=0.47.0,<1"
+langchain-core = ">=0.3.41,<1.0.0"
 pydantic = ">=2.7.4,<3.0.0"
 
 [[package]]
@@ -3622,18 +3621,18 @@ ollama = ">=0.4.4,<1"
 
 [[package]]
 name = "langchain-openai"
-version = "0.2.14"
+version = "0.3.8"
 description = "An integration package connecting OpenAI and LangChain"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 files = [
-    {file = "langchain_openai-0.2.14-py3-none-any.whl", hash = "sha256:d232496662f79ece9a11caf7d798ba863e559c771bc366814f7688e0fe664fe8"},
-    {file = "langchain_openai-0.2.14.tar.gz", hash = "sha256:7a514f309e356b182a337c0ed36ab3fbe34d9834a235a3b85cb7f91ae775d978"},
+    {file = "langchain_openai-0.3.8-py3-none-any.whl", hash = "sha256:9004dc8ef853aece0d8f0feca7753dc97f710fa3e53874c8db66466520436dbb"},
+    {file = "langchain_openai-0.3.8.tar.gz", hash = "sha256:4d73727eda8102d1d07a2ca036278fccab0bb5e0abf353cec9c3973eb72550ec"},
 ]
 
 [package.dependencies]
-langchain-core = ">=0.3.27,<0.4.0"
+langchain-core = ">=0.3.42,<1.0.0"
 openai = ">=1.58.1,<2.0.0"
 tiktoken = ">=0.7,<1"
 
@@ -3681,19 +3680,19 @@ langchain-core = ">=0.3.34,<1.0.0"
 
 [[package]]
 name = "langchain-upstage"
-version = "0.3.0"
+version = "0.6.0"
 description = "An integration package connecting Upstage and LangChain"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 files = [
-    {file = "langchain_upstage-0.3.0-py3-none-any.whl", hash = "sha256:24de722e1c7b1427200ca0d60aaf19c0517390de1d3c7f685922468f5c17dcf3"},
-    {file = "langchain_upstage-0.3.0.tar.gz", hash = "sha256:27750a892b99d70a5978c5778e05dc61587a4cbb35fd58329ca751263979a683"},
+    {file = "langchain_upstage-0.6.0-py3-none-any.whl", hash = "sha256:ac5e161d637f52f727c4790225ce548db4fca1200a6d8cf5c3fee76f81b2a84d"},
+    {file = "langchain_upstage-0.6.0.tar.gz", hash = "sha256:83184a66e34964fb334f901927e3e4126d6ba90ea337a7aa9e22166989608441"},
 ]
 
 [package.dependencies]
-langchain-core = ">=0.3.0,<0.4"
-langchain-openai = ">=0.2,<0.3"
+langchain-core = ">=0.3.29,<0.4.0"
+langchain-openai = ">=0.3,<0.4"
 pypdf = ">=4.2.0,<5.0.0"
 requests = ">=2.31.0,<3.0.0"
 tokenizers = ">=0.19.1,<0.20.0"
@@ -4800,14 +4799,14 @@ files = [
 
 [[package]]
 name = "narwhals"
-version = "1.29.1"
+version = "1.30.0"
 description = "Extremely lightweight compatibility layer between dataframe libraries"
 optional = false
 python-versions = ">=3.8"
 groups = ["main"]
 files = [
-    {file = "narwhals-1.29.1-py3-none-any.whl", hash = "sha256:2f68cfbb2562672c4dfa54f158ed8c2828e9920ef784981cd9114e419c444216"},
-    {file = "narwhals-1.29.1.tar.gz", hash = "sha256:c408acf09e90c116f247cf34f24a3a89d147e3e235b1d3c708cfd1960baf320a"},
+    {file = "narwhals-1.30.0-py3-none-any.whl", hash = "sha256:443aa0a1abfae89bc65a6b888a7e310a03d1818bfb2ccd61c150199a5f954c17"},
+    {file = "narwhals-1.30.0.tar.gz", hash = "sha256:0c50cc67a5404da501302882838ec17dce51703d22cd8ad89162d6f60ea0bb19"},
 ]
 
 [package.extras]
@@ -10302,4 +10301,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<3.12"
-content-hash = "142e96e2db8fa74954e708510177cb58e8308fc999e11b1ec15f9b7af22f0914"
+content-hash = "6affa97dc8324c4d61bd021137ad94e500c9223ba90df9241e0da03b6b934a03"

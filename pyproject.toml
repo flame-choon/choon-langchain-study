@@ -15,11 +15,11 @@ langchain = "^0.3"
 langchain-core = "^0.3"
 langchain-experimental = "^0.3"
 langchain-community = "^0.3"
-langchain-openai = "^0.2"
-langchain-anthropic = "^0.2"
+langchain-openai = "^0.3"
+langchain-anthropic = "^0.3"
 langchain-text-splitters = "^0.3"
 langchain-elasticsearch = "^0.3"
-langchain-upstage = "^0.3"
+langchain-upstage = "^0.6"
 langchain-chroma = "^0.1"
 langchain-cohere = "^0.3"
 langchain-milvus = "^0.1.1"
@@ -36,7 +36,7 @@ kiwipiepy = "^0.17.1"
 konlpy = "^0.6.0"
 
 # 데이터 처리 및 분석 관련 패키지
-pandas = "^2.2.2"
+pandas = "^2.2"
 rank-bm25 = "^0.2.2"
 
 # 데이터베이스 및 캐시 관련 패키지
